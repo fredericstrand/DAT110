@@ -1,0 +1,1089 @@
+{
+  "build": "py310hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "ipykernel >=4.5.1",
+    "ipython >=6.1.0",
+    "jupyterlab_widgets >=3.0.4,<4.0.0",
+    "python >=3.10,<3.11.0a0",
+    "traitlets >=4.3.1",
+    "widgetsnbextension >=4.0.4,<5.0.0"
+  ],
+  "extracted_package_dir": "/Users/fredericstrand/miniconda3/pkgs/ipywidgets-8.0.4-py310hca03da5_0",
+  "files": [
+    "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/LICENSE",
+    "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/ipywidgets/__init__.py",
+    "lib/python3.10/site-packages/ipywidgets/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/__pycache__/embed.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/_version.py",
+    "lib/python3.10/site-packages/ipywidgets/embed.py",
+    "lib/python3.10/site-packages/ipywidgets/state.schema.json",
+    "lib/python3.10/site-packages/ipywidgets/tests/__init__.py",
+    "lib/python3.10/site-packages/ipywidgets/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/tests/__pycache__/test_embed.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/tests/test_embed.py",
+    "lib/python3.10/site-packages/ipywidgets/view.schema.json",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__init__.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/docutils.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/domwidget.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/interaction.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/trait_types.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/valuewidget.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_bool.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_box.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_button.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_color.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_controller.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_core.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_date.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_datetime.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_description.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_float.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_int.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_layout.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_link.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_media.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_output.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_selection.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_selectioncontainer.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_string.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_style.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_tagsinput.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_templates.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_time.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_upload.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/docutils.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/domwidget.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/interaction.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__init__.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_datetime_serializers.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_docutils.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_interaction.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_link.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_selectioncontainer.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_send_state.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_set_state.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_traits.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_box.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_button.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_datetime.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_float.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_image.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_naive_datetime.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_output.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_selection.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_string.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_templates.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_time.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_upload.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/data/jupyter-logo-transparent.png",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_datetime_serializers.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_docutils.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_interaction.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_link.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_selectioncontainer.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_send_state.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_set_state.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_traits.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_utils.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_box.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_button.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_datetime.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_float.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_image.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_naive_datetime.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_output.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_selection.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_string.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_templates.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_time.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_upload.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/tests/utils.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/trait_types.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/utils.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/valuewidget.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_bool.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_box.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_button.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_color.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_controller.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_core.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_date.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_datetime.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_description.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_float.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_int.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_layout.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_link.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_media.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_output.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_selection.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_selectioncontainer.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_string.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_style.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_tagsinput.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_templates.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_time.py",
+    "lib/python3.10/site-packages/ipywidgets/widgets/widget_upload.py"
+  ],
+  "fn": "ipywidgets-8.0.4-py310hca03da5_0.conda",
+  "legacy_bz2_md5": "3bbc9ce7a21e0bc31d59f4db9d33a2c8",
+  "legacy_bz2_size": 199058,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/fredericstrand/miniconda3/pkgs/ipywidgets-8.0.4-py310hca03da5_0",
+    "type": 1
+  },
+  "md5": "c5928e3da4b277baf76082a04bdb475a",
+  "name": "ipywidgets",
+  "package_tarball_full_path": "/Users/fredericstrand/miniconda3/pkgs/ipywidgets-8.0.4-py310hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e5ac2be30b2bcefe330ee9e5ad7fe5b0d1156fecb3555fcaaa908a8d29f9fded",
+        "sha256_in_prefix": "e5ac2be30b2bcefe330ee9e5ad7fe5b0d1156fecb3555fcaaa908a8d29f9fded",
+        "size_in_bytes": 1513
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "49720a4a351dbf277694a7770581ff4cd90196fdb9ea1d8891b3b5e52c539f95",
+        "sha256_in_prefix": "49720a4a351dbf277694a7770581ff4cd90196fdb9ea1d8891b3b5e52c539f95",
+        "size_in_bytes": 2333
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0491e1eb20b0c6b38a4d2ca39848a3c31100436c1c4791ba28a039f800a5f5b1",
+        "sha256_in_prefix": "0491e1eb20b0c6b38a4d2ca39848a3c31100436c1c4791ba28a039f800a5f5b1",
+        "size_in_bytes": 10668
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f868f1325bc748ec82adf654087b4ab5c23477f6df6c416b711cc9dfb5f26d47",
+        "sha256_in_prefix": "f868f1325bc748ec82adf654087b4ab5c23477f6df6c416b711cc9dfb5f26d47",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets-8.0.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "43a218cda34af9bdd908e12dd79d787e35845ce7e1f9602309665370e6ee1e48",
+        "sha256_in_prefix": "43a218cda34af9bdd908e12dd79d787e35845ce7e1f9602309665370e6ee1e48",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9428e91d2900622bc55c29210fccdea723684b0473e7bee1645e6ece2f4bd668",
+        "sha256_in_prefix": "9428e91d2900622bc55c29210fccdea723684b0473e7bee1645e6ece2f4bd668",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "04f046ad10bac92e6b804c6470114b2d9aca94b812c7fbff6ba58023b19b7e60",
+        "sha256_in_prefix": "04f046ad10bac92e6b804c6470114b2d9aca94b812c7fbff6ba58023b19b7e60",
+        "size_in_bytes": 1729
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/__pycache__/_version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "362cbd4ca01e949ca33e887b53e181c7813fb63153d9c043172f8403348323b0",
+        "sha256_in_prefix": "362cbd4ca01e949ca33e887b53e181c7813fb63153d9c043172f8403348323b0",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/__pycache__/embed.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1aa5fa9e9660524d6b218a4b3a5f1209a01926b16b290b0099bddf5ca6d87275",
+        "sha256_in_prefix": "1aa5fa9e9660524d6b218a4b3a5f1209a01926b16b290b0099bddf5ca6d87275",
+        "size_in_bytes": 9753
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/_version.py",
+        "path_type": "hardlink",
+        "sha256": "07f8eed10618ca214a2aaed8c4abe442240cc3b3c7b8ef4998fe7333f1b7e207",
+        "sha256_in_prefix": "07f8eed10618ca214a2aaed8c4abe442240cc3b3c7b8ef4998fe7333f1b7e207",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/embed.py",
+        "path_type": "hardlink",
+        "sha256": "2b662b06d1e04719168e8455d3d3d134d36c2648fd5e79efc9709dfd4eaa02f8",
+        "sha256_in_prefix": "2b662b06d1e04719168e8455d3d3d134d36c2648fd5e79efc9709dfd4eaa02f8",
+        "size_in_bytes": 11287
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/state.schema.json",
+        "path_type": "hardlink",
+        "sha256": "60f4aa66a1438a80c6793564826eb59286fa96b2a8ef89b8439d27c3ab334bfe",
+        "sha256_in_prefix": "60f4aa66a1438a80c6793564826eb59286fa96b2a8ef89b8439d27c3ab334bfe",
+        "size_in_bytes": 2883
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4981c1281d8380735296601e61cc99deaeb58b309a3f557dac5873fa290e8e8e",
+        "sha256_in_prefix": "4981c1281d8380735296601e61cc99deaeb58b309a3f557dac5873fa290e8e8e",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/tests/__pycache__/test_embed.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1678d6d5cc33792843fa50f899c05b6b1e30c7943e365d4fc1e8dd1e956ed6a5",
+        "sha256_in_prefix": "1678d6d5cc33792843fa50f899c05b6b1e30c7943e365d4fc1e8dd1e956ed6a5",
+        "size_in_bytes": 6726
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/tests/test_embed.py",
+        "path_type": "hardlink",
+        "sha256": "dc02aa8dc23c91f12e984b25ac5a8eb237b05c8be01e7a847bcf9b72562a8262",
+        "sha256_in_prefix": "dc02aa8dc23c91f12e984b25ac5a8eb237b05c8be01e7a847bcf9b72562a8262",
+        "size_in_bytes": 6729
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/view.schema.json",
+        "path_type": "hardlink",
+        "sha256": "d88bf30fdc87d3f2accd38afa6d54025f826012d191480bbab7e3b53562d5a4d",
+        "sha256_in_prefix": "d88bf30fdc87d3f2accd38afa6d54025f826012d191480bbab7e3b53562d5a4d",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bb5873933585466769f633a5f9133898aae39f16c84aca2998d4fd5b34bc5a34",
+        "sha256_in_prefix": "bb5873933585466769f633a5f9133898aae39f16c84aca2998d4fd5b34bc5a34",
+        "size_in_bytes": 1709
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "91913b22668d449990c18d484922a5f67cde0087d4ad87ed66a824533a9b927d",
+        "sha256_in_prefix": "91913b22668d449990c18d484922a5f67cde0087d4ad87ed66a824533a9b927d",
+        "size_in_bytes": 2486
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/docutils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bacadbb2d6dd1325cd76769742a89e408b1a3b5796ce7d39728430c53871605",
+        "sha256_in_prefix": "9bacadbb2d6dd1325cd76769742a89e408b1a3b5796ce7d39728430c53871605",
+        "size_in_bytes": 739
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/domwidget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "87baa44a267bf7febba0080835099a47af1fc0d75597a178dc005a003713be3e",
+        "sha256_in_prefix": "87baa44a267bf7febba0080835099a47af1fc0d75597a178dc005a003713be3e",
+        "size_in_bytes": 2608
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/interaction.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "444fee495504137a132a855b18d7d1b984b604eb9a43b03213986812ae79f42e",
+        "sha256_in_prefix": "444fee495504137a132a855b18d7d1b984b604eb9a43b03213986812ae79f42e",
+        "size_in_bytes": 17131
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/trait_types.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2867ce25334dc6337bc9a80a2a351337ad1adaea41700a7c6e20b0815c892b60",
+        "sha256_in_prefix": "2867ce25334dc6337bc9a80a2a351337ad1adaea41700a7c6e20b0815c892b60",
+        "size_in_bytes": 11432
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "90643668a9412eac954387ef416df84720c234f1b2fca4a13131490176bae02d",
+        "sha256_in_prefix": "90643668a9412eac954387ef416df84720c234f1b2fca4a13131490176bae02d",
+        "size_in_bytes": 1996
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/valuewidget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "56b4ace6d50f9a8617d4b2ae38d4564df8d3f201b914721982784cabb3664e1b",
+        "sha256_in_prefix": "56b4ace6d50f9a8617d4b2ae38d4564df8d3f201b914721982784cabb3664e1b",
+        "size_in_bytes": 1134
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd54c070560299aa0396927041d5060e3c6e40ac6ef2139d723b998159987acb",
+        "sha256_in_prefix": "cd54c070560299aa0396927041d5060e3c6e40ac6ef2139d723b998159987acb",
+        "size_in_bytes": 25855
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_bool.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c23a38afb1cdf467fc429e261a7665d196c8441cc414f14212e00aab2bdc3c1",
+        "sha256_in_prefix": "4c23a38afb1cdf467fc429e261a7665d196c8441cc414f14212e00aab2bdc3c1",
+        "size_in_bytes": 4733
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_box.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b080709477341093694a80b57b4936a29df8867ed24fd46b20b0a04e18b6452",
+        "sha256_in_prefix": "8b080709477341093694a80b57b4936a29df8867ed24fd46b20b0a04e18b6452",
+        "size_in_bytes": 3936
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_button.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b202c7c70b4fbc048d986ee419478747c756a29b2caaa95910d2704dc59a73a",
+        "sha256_in_prefix": "8b202c7c70b4fbc048d986ee419478747c756a29b2caaa95910d2704dc59a73a",
+        "size_in_bytes": 4544
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_color.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "43d3928a5d8fecf22c84d3edb3c2ba528d8dd11d0cd09dc4d5a1a9d07c052ce3",
+        "sha256_in_prefix": "43d3928a5d8fecf22c84d3edb3c2ba528d8dd11d0cd09dc4d5a1a9d07c052ce3",
+        "size_in_bytes": 1011
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_controller.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3cebeafd1fa13957e3e645565db9d8163ae7f458a63429d840419a5e952745b4",
+        "sha256_in_prefix": "3cebeafd1fa13957e3e645565db9d8163ae7f458a63429d840419a5e952745b4",
+        "size_in_bytes": 2358
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "932f7d7ec57b880866c49ea54e5741b2c017d986ec22890a30fdd2b6eee1a3d6",
+        "sha256_in_prefix": "932f7d7ec57b880866c49ea54e5741b2c017d986ec22890a30fdd2b6eee1a3d6",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_date.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "52e5f48ecc4cc9ef5be204388f5b7e69baa61103233956e19bd90138f9975eea",
+        "sha256_in_prefix": "52e5f48ecc4cc9ef5be204388f5b7e69baa61103233956e19bd90138f9975eea",
+        "size_in_bytes": 2526
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_datetime.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c9b07a7b0dc1b27de1b1036d97f590ba2e9799b03a7393e4e1dc9aa51035384",
+        "sha256_in_prefix": "9c9b07a7b0dc1b27de1b1036d97f590ba2e9799b03a7393e4e1dc9aa51035384",
+        "size_in_bytes": 3973
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_description.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1177757b0bec12cb315ac7d3296a616f0f028508c7d2c0055e02a8a4bd3d6bec",
+        "sha256_in_prefix": "1177757b0bec12cb315ac7d3296a616f0f028508c7d2c0055e02a8a4bd3d6bec",
+        "size_in_bytes": 2586
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_float.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "05915274b4c9dca3ea56a264fa66923767c23fc9190f0363cab7ceaa4f0f0345",
+        "sha256_in_prefix": "05915274b4c9dca3ea56a264fa66923767c23fc9190f0363cab7ceaa4f0f0345",
+        "size_in_bytes": 13742
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_int.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "88f0cd54e95cf9a764fb4151e20b10fcc99eba7f3b5ed550d5982ff68cf7f01c",
+        "sha256_in_prefix": "88f0cd54e95cf9a764fb4151e20b10fcc99eba7f3b5ed550d5982ff68cf7f01c",
+        "size_in_bytes": 11710
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_layout.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "52b3d24dc4fad38b46a2834b1c27e622990fd2e278a8ae052e268f57648c1c9d",
+        "sha256_in_prefix": "52b3d24dc4fad38b46a2834b1c27e622990fd2e278a8ae052e268f57648c1c9d",
+        "size_in_bytes": 5839
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_link.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8247eeeb325a8cc9c8165f399cf9852059534ba58c1d5fab90f0e1a746386d1f",
+        "sha256_in_prefix": "8247eeeb325a8cc9c8165f399cf9852059534ba58c1d5fab90f0e1a746386d1f",
+        "size_in_bytes": 3846
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_media.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "edd36c4354f87909dadc50ff399911115f6bfcb30c4a136c635c210a730c4b5e",
+        "sha256_in_prefix": "edd36c4354f87909dadc50ff399911115f6bfcb30c4a136c635c210a730c4b5e",
+        "size_in_bytes": 7722
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_output.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6efafb4946daf072e4d00386e47647c33e158fa30e1963776fbc6d18ca140ef",
+        "sha256_in_prefix": "f6efafb4946daf072e4d00386e47647c33e158fa30e1963776fbc6d18ca140ef",
+        "size_in_bytes": 6371
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_selection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd8a9f72de3fcde9dc50f61b1820eb29721372abcb77c184682aaaea2a9c98ff",
+        "sha256_in_prefix": "fd8a9f72de3fcde9dc50f61b1820eb29721372abcb77c184682aaaea2a9c98ff",
+        "size_in_bytes": 23780
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_selectioncontainer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "efb061b86232577336a345985c11a5b612ad2dc59e7c0982be1ee9fae1d71290",
+        "sha256_in_prefix": "efb061b86232577336a345985c11a5b612ad2dc59e7c0982be1ee9fae1d71290",
+        "size_in_bytes": 4593
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_string.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0ad323fabd5c86d4cf1857528464b7db52d121bf08fe143e744d568f6ebffe4",
+        "sha256_in_prefix": "f0ad323fabd5c86d4cf1857528464b7db52d121bf08fe143e744d568f6ebffe4",
+        "size_in_bytes": 7246
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_style.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9651ff00d26672118f115681c4d4e1d2bd71125f9fb0183b373f6b8de9c24664",
+        "sha256_in_prefix": "9651ff00d26672118f115681c4d4e1d2bd71125f9fb0183b373f6b8de9c24664",
+        "size_in_bytes": 739
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_tagsinput.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f1731eb4614eccdc1beedddb9e3b584dae02bc420632090164388eb1b6e8f4d",
+        "sha256_in_prefix": "5f1731eb4614eccdc1beedddb9e3b584dae02bc420632090164388eb1b6e8f4d",
+        "size_in_bytes": 3753
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_templates.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f2a0045160155d2ffe8cd7bbd18c422f24c17089204a0eac13cfe578c593bd1",
+        "sha256_in_prefix": "5f2a0045160155d2ffe8cd7bbd18c422f24c17089204a0eac13cfe578c593bd1",
+        "size_in_bytes": 12845
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_time.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "026ef8a252d9930823edbf5c44380a012a2b672ec7c5f4f9d3c919b9b3bebd65",
+        "sha256_in_prefix": "026ef8a252d9930823edbf5c44380a012a2b672ec7c5f4f9d3c919b9b3bebd65",
+        "size_in_bytes": 2704
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/__pycache__/widget_upload.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "90694975517d779a3ac9e9b33de5025a20fb2849165763a5d1931f9203b006a9",
+        "sha256_in_prefix": "90694975517d779a3ac9e9b33de5025a20fb2849165763a5d1931f9203b006a9",
+        "size_in_bytes": 5147
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/docutils.py",
+        "path_type": "hardlink",
+        "sha256": "c0389c4a4481888f9ec619be60dff20b6605e6463654b40c944bdbfc09a0ce6f",
+        "sha256_in_prefix": "c0389c4a4481888f9ec619be60dff20b6605e6463654b40c944bdbfc09a0ce6f",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/domwidget.py",
+        "path_type": "hardlink",
+        "sha256": "6ff19be914092b10aa9eb8d3662c2bedc805e95b16a9662cecfb0d0cd9cdccf0",
+        "sha256_in_prefix": "6ff19be914092b10aa9eb8d3662c2bedc805e95b16a9662cecfb0d0cd9cdccf0",
+        "size_in_bytes": 2290
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/interaction.py",
+        "path_type": "hardlink",
+        "sha256": "f798b3335489bcb464e2f1ec9753d9a7cccaf4b8645d22b8d77bcfcd94593568",
+        "sha256_in_prefix": "f798b3335489bcb464e2f1ec9753d9a7cccaf4b8645d22b8d77bcfcd94593568",
+        "size_in_bytes": 20353
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd92fe98e52ce3f866d10f7f2da3cf9b8e3e0167faf8c60484641272eb405f7b",
+        "sha256_in_prefix": "cd92fe98e52ce3f866d10f7f2da3cf9b8e3e0167faf8c60484641272eb405f7b",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_datetime_serializers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "344f6e84b673d5d56a9111f5c19eb3385d4fd4dacdc6eeaeac795147fa485991",
+        "sha256_in_prefix": "344f6e84b673d5d56a9111f5c19eb3385d4fd4dacdc6eeaeac795147fa485991",
+        "size_in_bytes": 2316
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_docutils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbc1d90a012850c60dc18631483a22d32a64373a79826568eac489d858ad1202",
+        "sha256_in_prefix": "bbc1d90a012850c60dc18631483a22d32a64373a79826568eac489d858ad1202",
+        "size_in_bytes": 1158
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_interaction.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3990b8fe79b59fd22c4fb74fbffa2ada8d32839d23199b819696bad44a60a77",
+        "sha256_in_prefix": "e3990b8fe79b59fd22c4fb74fbffa2ada8d32839d23199b819696bad44a60a77",
+        "size_in_bytes": 18424
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_link.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e8eea3928e45149cb49efd688986c38e36e20e62923acd1f692feb163ee92fa",
+        "sha256_in_prefix": "3e8eea3928e45149cb49efd688986c38e36e20e62923acd1f692feb163ee92fa",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_selectioncontainer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac0de5f58bd2cad3ef0c46e24be7d0b82b051db3c567393ac94d52f9bdefd333",
+        "sha256_in_prefix": "ac0de5f58bd2cad3ef0c46e24be7d0b82b051db3c567393ac94d52f9bdefd333",
+        "size_in_bytes": 4321
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_send_state.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "38e0e23a5b41ff0f2706fe41f18999bfcf48d2a1b9b8db391cd35a3b26b84f0f",
+        "sha256_in_prefix": "38e0e23a5b41ff0f2706fe41f18999bfcf48d2a1b9b8db391cd35a3b26b84f0f",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_set_state.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9a9266530ecdb1a905f6fcb1265a8ab1d01236f53f3d32eb56a8aab1b23c938",
+        "sha256_in_prefix": "b9a9266530ecdb1a905f6fcb1265a8ab1d01236f53f3d32eb56a8aab1b23c938",
+        "size_in_bytes": 9865
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_traits.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d06f0763381f3646266c5557e4ac67a3cd5370844b89658fc8a8fd780117e192",
+        "sha256_in_prefix": "d06f0763381f3646266c5557e4ac67a3cd5370844b89658fc8a8fd780117e192",
+        "size_in_bytes": 7972
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed0b498018623aae43543f38b975001162865317492107123265ceea1406cbd2",
+        "sha256_in_prefix": "ed0b498018623aae43543f38b975001162865317492107123265ceea1406cbd2",
+        "size_in_bytes": 2429
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bc1d8e19743f3ad2f23b869ce86d6dca4573b07e73be8c15f450745a4010ddc",
+        "sha256_in_prefix": "8bc1d8e19743f3ad2f23b869ce86d6dca4573b07e73be8c15f450745a4010ddc",
+        "size_in_bytes": 2667
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_box.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "162e524b24d2700a6a9a13df3e6b9c6359ea00d65ebce8ae64aa75eba9ee541c",
+        "sha256_in_prefix": "162e524b24d2700a6a9a13df3e6b9c6359ea00d65ebce8ae64aa75eba9ee541c",
+        "size_in_bytes": 1471
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_button.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8699789199551903b3422728fb833ca0c8608e53334a7eeeeeddc16b2226ba8",
+        "sha256_in_prefix": "a8699789199551903b3422728fb833ca0c8608e53334a7eeeeeddc16b2226ba8",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_datetime.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0e42800eabc0c47e1502ab14ef743f7edc6fe1aefb068f315515e09752ebb0f",
+        "sha256_in_prefix": "d0e42800eabc0c47e1502ab14ef743f7edc6fe1aefb068f315515e09752ebb0f",
+        "size_in_bytes": 4452
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_float.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2cefa5d74570ab907858ed521b288e742df96fba4bf3a0a98394c20ece2a97cf",
+        "sha256_in_prefix": "2cefa5d74570ab907858ed521b288e742df96fba4bf3a0a98394c20ece2a97cf",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_image.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "662445ae72a073859535f29e8343cae519a19a8fc4cadb1c7446ac2c78956ea8",
+        "sha256_in_prefix": "662445ae72a073859535f29e8343cae519a19a8fc4cadb1c7446ac2c78956ea8",
+        "size_in_bytes": 4979
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_naive_datetime.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2b3e90439aefd867e41ab4e9790b8a5ebe53beb13a5a77ba744dad99d71dee6",
+        "sha256_in_prefix": "b2b3e90439aefd867e41ab4e9790b8a5ebe53beb13a5a77ba744dad99d71dee6",
+        "size_in_bytes": 3119
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_output.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e2bdb85c70442195e6541917c62aa7387dd55b660d67e94b0789dbc5cdccb6a",
+        "sha256_in_prefix": "6e2bdb85c70442195e6541917c62aa7387dd55b660d67e94b0789dbc5cdccb6a",
+        "size_in_bytes": 5904
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_selection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a806b10c1f06ec537f15c3bf8d226984233f367ad239db7ae029ec0cd3a2a35",
+        "sha256_in_prefix": "7a806b10c1f06ec537f15c3bf8d226984233f367ad239db7ae029ec0cd3a2a35",
+        "size_in_bytes": 4003
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_string.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c4d6b6c18ee9e5b63f36798c8f6ebf16f5b28f1a3b9f1d0a124f739be185108",
+        "sha256_in_prefix": "5c4d6b6c18ee9e5b63f36798c8f6ebf16f5b28f1a3b9f1d0a124f739be185108",
+        "size_in_bytes": 1861
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_templates.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "187af171a6c97b2709eff186f54759efc8880469d3c05f02600bcdc50723dde4",
+        "sha256_in_prefix": "187af171a6c97b2709eff186f54759efc8880469d3c05f02600bcdc50723dde4",
+        "size_in_bytes": 14991
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_time.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6ff5f09100d48da6d3a97878e5277d9930d1d238f5164e6362381dd4df6a424",
+        "sha256_in_prefix": "b6ff5f09100d48da6d3a97878e5277d9930d1d238f5164e6362381dd4df6a424",
+        "size_in_bytes": 2953
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/test_widget_upload.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "69543d35a5b601c062e211748e5f000e58943a39b7bc829618e498b02cb46cd8",
+        "sha256_in_prefix": "69543d35a5b601c062e211748e5f000e58943a39b7bc829618e498b02cb46cd8",
+        "size_in_bytes": 3534
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c9f2e8349e63baa5d977854f1ae90e9b15564baf9019fc9285b3927ff82d4c8",
+        "sha256_in_prefix": "5c9f2e8349e63baa5d977854f1ae90e9b15564baf9019fc9285b3927ff82d4c8",
+        "size_in_bytes": 2142
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/data/jupyter-logo-transparent.png",
+        "path_type": "hardlink",
+        "sha256": "3ff9eafd7197083153e83339a72e7a335539bae189c33554c680e4382c98af02",
+        "sha256_in_prefix": "3ff9eafd7197083153e83339a72e7a335539bae189c33554c680e4382c98af02",
+        "size_in_bytes": 36297
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_datetime_serializers.py",
+        "path_type": "hardlink",
+        "sha256": "b84e7600693787469912e72ba91acf543f0987a5c56631a3c9844b50f9e1bfb4",
+        "sha256_in_prefix": "b84e7600693787469912e72ba91acf543f0987a5c56631a3c9844b50f9e1bfb4",
+        "size_in_bytes": 2133
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_docutils.py",
+        "path_type": "hardlink",
+        "sha256": "3b9b4a69256964c4729cb762a038444578c12351a8868263c2a8fe37d20a5534",
+        "sha256_in_prefix": "3b9b4a69256964c4729cb762a038444578c12351a8868263c2a8fe37d20a5534",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_interaction.py",
+        "path_type": "hardlink",
+        "sha256": "e2ece6481d2b0aea0164e3b0713d88b520afcdf34ed1fbf6abe0e9fd00810a6e",
+        "sha256_in_prefix": "e2ece6481d2b0aea0164e3b0713d88b520afcdf34ed1fbf6abe0e9fd00810a6e",
+        "size_in_bytes": 17124
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_link.py",
+        "path_type": "hardlink",
+        "sha256": "0b6973e7436c62d421f656ac3b94e991d42f6977c57cb9000de0e3a05f299661",
+        "sha256_in_prefix": "0b6973e7436c62d421f656ac3b94e991d42f6977c57cb9000de0e3a05f299661",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_selectioncontainer.py",
+        "path_type": "hardlink",
+        "sha256": "72a1349f2723a6d291bea6ec3559067463910b429034e020f29d158076872f66",
+        "sha256_in_prefix": "72a1349f2723a6d291bea6ec3559067463910b429034e020f29d158076872f66",
+        "size_in_bytes": 5619
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_send_state.py",
+        "path_type": "hardlink",
+        "sha256": "c895e6b1652d59dbe8011f2f3e5916442ef81baf89c137bab3705dffec74aff1",
+        "sha256_in_prefix": "c895e6b1652d59dbe8011f2f3e5916442ef81baf89c137bab3705dffec74aff1",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_set_state.py",
+        "path_type": "hardlink",
+        "sha256": "a1d9d608f1d41e9ffed380035b556cf5e072bb1189f2633577958102c6f236eb",
+        "sha256_in_prefix": "a1d9d608f1d41e9ffed380035b556cf5e072bb1189f2633577958102c6f236eb",
+        "size_in_bytes": 11017
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_traits.py",
+        "path_type": "hardlink",
+        "sha256": "8739d86a4498b93051a60ec5b6600f0dbb5c73dbd84d5430875f1c20138f8ea8",
+        "sha256_in_prefix": "8739d86a4498b93051a60ec5b6600f0dbb5c73dbd84d5430875f1c20138f8ea8",
+        "size_in_bytes": 7239
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "28ecc78d52d387157d487b41c5c7205dc8f37eb6a9cf673bea24b800ca24f28a",
+        "sha256_in_prefix": "28ecc78d52d387157d487b41c5c7205dc8f37eb6a9cf673bea24b800ca24f28a",
+        "size_in_bytes": 2478
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget.py",
+        "path_type": "hardlink",
+        "sha256": "10900527ba048a390d2b607c4e1cfd0b72d2547fd18c66ac41ba6d7e95933f2c",
+        "sha256_in_prefix": "10900527ba048a390d2b607c4e1cfd0b72d2547fd18c66ac41ba6d7e95933f2c",
+        "size_in_bytes": 2606
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_box.py",
+        "path_type": "hardlink",
+        "sha256": "ed198fedd9386f55e45b717aab4bbdb9a477a2cff7adedf4ebb1f2c31d8e41dd",
+        "sha256_in_prefix": "ed198fedd9386f55e45b717aab4bbdb9a477a2cff7adedf4ebb1f2c31d8e41dd",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_button.py",
+        "path_type": "hardlink",
+        "sha256": "9c1dc15b169bcc90b7c09e5fd4bfb5e707fced568c7852489b273accb76b3059",
+        "sha256_in_prefix": "9c1dc15b169bcc90b7c09e5fd4bfb5e707fced568c7852489b273accb76b3059",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "206f60bae9883dadc95f544642c5552f9a2efa70af6aebc53518d97404ea70d1",
+        "sha256_in_prefix": "206f60bae9883dadc95f544642c5552f9a2efa70af6aebc53518d97404ea70d1",
+        "size_in_bytes": 4169
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_float.py",
+        "path_type": "hardlink",
+        "sha256": "bb74457e83054e71cce3df8aaf099600f5f6e1aa22246c352b18885447a9b9e0",
+        "sha256_in_prefix": "bb74457e83054e71cce3df8aaf099600f5f6e1aa22246c352b18885447a9b9e0",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_image.py",
+        "path_type": "hardlink",
+        "sha256": "013713c55e3698481bffa29a5d0c260a0ddc1b42c11f3ea375439ef8642312e1",
+        "sha256_in_prefix": "013713c55e3698481bffa29a5d0c260a0ddc1b42c11f3ea375439ef8642312e1",
+        "size_in_bytes": 4422
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_naive_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "af2a4e60cf086f87fe305ce0e3938fcb7c625be840ddf723f3bb1ea53609352b",
+        "sha256_in_prefix": "af2a4e60cf086f87fe305ce0e3938fcb7c625be840ddf723f3bb1ea53609352b",
+        "size_in_bytes": 2655
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_output.py",
+        "path_type": "hardlink",
+        "sha256": "b40af86e5c844ae8ee5003a24558cbb5e3935faba19cc9997385f236dad78e31",
+        "sha256_in_prefix": "b40af86e5c844ae8ee5003a24558cbb5e3935faba19cc9997385f236dad78e31",
+        "size_in_bytes": 7020
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_selection.py",
+        "path_type": "hardlink",
+        "sha256": "2d91cc3e4defeee7feba7e59790f0656d495c2b153d06aac67a10247a0c28f5b",
+        "sha256_in_prefix": "2d91cc3e4defeee7feba7e59790f0656d495c2b153d06aac67a10247a0c28f5b",
+        "size_in_bytes": 3372
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_string.py",
+        "path_type": "hardlink",
+        "sha256": "a5159203e9abe244fefd2517e9db7799d154762443112308e329ab40a339e6b3",
+        "sha256_in_prefix": "a5159203e9abe244fefd2517e9db7799d154762443112308e329ab40a339e6b3",
+        "size_in_bytes": 1796
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_templates.py",
+        "path_type": "hardlink",
+        "sha256": "41aaabfdad60c6a2887654fdf68e05275e66cc6fcd11e50f4e2963d70de03d7a",
+        "sha256_in_prefix": "41aaabfdad60c6a2887654fdf68e05275e66cc6fcd11e50f4e2963d70de03d7a",
+        "size_in_bytes": 28445
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_time.py",
+        "path_type": "hardlink",
+        "sha256": "d66fb4ca2be319765179b7f4a6ebd3f22d56977f864b95a538276a777eea6438",
+        "sha256_in_prefix": "d66fb4ca2be319765179b7f4a6ebd3f22d56977f864b95a538276a777eea6438",
+        "size_in_bytes": 2469
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/test_widget_upload.py",
+        "path_type": "hardlink",
+        "sha256": "05bd7d46f9c6f9a3785d3e059ade813eece2a27b20d9c874b3be0ddab79eeb71",
+        "sha256_in_prefix": "05bd7d46f9c6f9a3785d3e059ade813eece2a27b20d9c874b3be0ddab79eeb71",
+        "size_in_bytes": 4164
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/tests/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5aa2325901a8d6d2eeaee63c953ab52e1ca27aae4ee99d26b85ea5fcfddedfce",
+        "sha256_in_prefix": "5aa2325901a8d6d2eeaee63c953ab52e1ca27aae4ee99d26b85ea5fcfddedfce",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/trait_types.py",
+        "path_type": "hardlink",
+        "sha256": "a7a50499d6c0bb00cbaadc7f1711d6db32800cfcec1928f2a4e3f4705877fcaa",
+        "sha256_in_prefix": "a7a50499d6c0bb00cbaadc7f1711d6db32800cfcec1928f2a4e3f4705877fcaa",
+        "size_in_bytes": 14831
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/utils.py",
+        "path_type": "hardlink",
+        "sha256": "2ee3f4a4247464de2e402611cca7caa0a3ea2bbf1f10f0331b4249fdfd1210a3",
+        "sha256_in_prefix": "2ee3f4a4247464de2e402611cca7caa0a3ea2bbf1f10f0331b4249fdfd1210a3",
+        "size_in_bytes": 2608
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/valuewidget.py",
+        "path_type": "hardlink",
+        "sha256": "e1387e519c82f38a5830af15bd701c95ca05018cf7fbec154521157212cb13eb",
+        "sha256_in_prefix": "e1387e519c82f38a5830af15bd701c95ca05018cf7fbec154521157212cb13eb",
+        "size_in_bytes": 817
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget.py",
+        "path_type": "hardlink",
+        "sha256": "42432205d4e3f78305967aeeb3fd597a1116eca9b62a21a62822b47d202e084f",
+        "sha256_in_prefix": "42432205d4e3f78305967aeeb3fd597a1116eca9b62a21a62822b47d202e084f",
+        "size_in_bytes": 34829
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_bool.py",
+        "path_type": "hardlink",
+        "sha256": "4b51d5d6503bc4423a605bce84ee453e321045596400b03dbff42ffb0394ea77",
+        "sha256_in_prefix": "4b51d5d6503bc4423a605bce84ee453e321045596400b03dbff42ffb0394ea77",
+        "size_in_bytes": 4328
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_box.py",
+        "path_type": "hardlink",
+        "sha256": "f8a242f88d086c56fad2360ff0c7dda1b90b6b1fe42d1ba71f2b2dc91af0f6d4",
+        "sha256_in_prefix": "f8a242f88d086c56fad2360ff0c7dda1b90b6b1fe42d1ba71f2b2dc91af0f6d4",
+        "size_in_bytes": 3731
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_button.py",
+        "path_type": "hardlink",
+        "sha256": "a7fdeef281202fe9211ecd7fcbf35c1926cc3e2f2b0c152e1acf3627c3d9a47c",
+        "sha256_in_prefix": "a7fdeef281202fe9211ecd7fcbf35c1926cc3e2f2b0c152e1acf3627c3d9a47c",
+        "size_in_bytes": 4204
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_color.py",
+        "path_type": "hardlink",
+        "sha256": "38a5bf621ab800bd401e3335bc50e1ca990228208992b3a541f5c5056db85db3",
+        "sha256_in_prefix": "38a5bf621ab800bd401e3335bc50e1ca990228208992b3a541f5c5056db85db3",
+        "size_in_bytes": 807
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_controller.py",
+        "path_type": "hardlink",
+        "sha256": "7a323bad2419834639d8eb809fab819477616ca853a7d35f7f27f1a9da178551",
+        "sha256_in_prefix": "7a323bad2419834639d8eb809fab819477616ca853a7d35f7f27f1a9da178551",
+        "size_in_bytes": 2320
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_core.py",
+        "path_type": "hardlink",
+        "sha256": "311919c4315360b5d63d8ddd7d193e7e0d8b972a53c8c830735656832a066bdc",
+        "sha256_in_prefix": "311919c4315360b5d63d8ddd7d193e7e0d8b972a53c8c830735656832a066bdc",
+        "size_in_bytes": 622
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_date.py",
+        "path_type": "hardlink",
+        "sha256": "fedb94e78f668473073734805a8511134a71916f857f1b086e37acff783c863f",
+        "sha256_in_prefix": "fedb94e78f668473073734805a8511134a71916f857f1b086e37acff783c863f",
+        "size_in_bytes": 2597
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "fa031bece3e8ac2136fbf6df3d296623b5e9ffd37007d7de3dd20b1df7d41a98",
+        "sha256_in_prefix": "fa031bece3e8ac2136fbf6df3d296623b5e9ffd37007d7de3dd20b1df7d41a98",
+        "size_in_bytes": 4134
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_description.py",
+        "path_type": "hardlink",
+        "sha256": "969353a4476e4c4bf0f589c15182f31ff624933c6a1268519ed3f48e8a91fd2c",
+        "sha256_in_prefix": "969353a4476e4c4bf0f589c15182f31ff624933c6a1268519ed3f48e8a91fd2c",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_float.py",
+        "path_type": "hardlink",
+        "sha256": "b2e33e0c09a7ecbc9e2adc37d4a65c5a8f9fb0953dc4bfb62066efdf60e722b1",
+        "sha256_in_prefix": "b2e33e0c09a7ecbc9e2adc37d4a65c5a8f9fb0953dc4bfb62066efdf60e722b1",
+        "size_in_bytes": 15028
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_int.py",
+        "path_type": "hardlink",
+        "sha256": "554b68e19dbc309ddb193c3fa939311da2099717f9c2fbb79c15a42f7ee3f3e9",
+        "sha256_in_prefix": "554b68e19dbc309ddb193c3fa939311da2099717f9c2fbb79c15a42f7ee3f3e9",
+        "size_in_bytes": 12125
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_layout.py",
+        "path_type": "hardlink",
+        "sha256": "fd8bf150356e997dfd617a67e4614a9c36190c39576eac27760c23376e59c747",
+        "sha256_in_prefix": "fd8bf150356e997dfd617a67e4614a9c36190c39576eac27760c23376e59c747",
+        "size_in_bytes": 7067
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_link.py",
+        "path_type": "hardlink",
+        "sha256": "d598117522ab9977501e83abc698ee2e6d4f71359b9ad2d88776be51af877945",
+        "sha256_in_prefix": "d598117522ab9977501e83abc698ee2e6d4f71359b9ad2d88776be51af877945",
+        "size_in_bytes": 3708
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_media.py",
+        "path_type": "hardlink",
+        "sha256": "a4f8f5dba6f58de3e9e828b8348b8e8d8222a015d030136831b4106cecf58086",
+        "sha256_in_prefix": "a4f8f5dba6f58de3e9e828b8348b8e8d8222a015d030136831b4106cecf58086",
+        "size_in_bytes": 7783
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_output.py",
+        "path_type": "hardlink",
+        "sha256": "9112f47ba459bbedf86655bda45c0810ba6383282ebee1f5608b7956c7ce2a2a",
+        "sha256_in_prefix": "9112f47ba459bbedf86655bda45c0810ba6383282ebee1f5608b7956c7ce2a2a",
+        "size_in_bytes": 6642
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_selection.py",
+        "path_type": "hardlink",
+        "sha256": "e24325139fa6a9411ee4b7ca4b95e0f798c707acc7a7ecbec501252be80fa7ec",
+        "sha256_in_prefix": "e24325139fa6a9411ee4b7ca4b95e0f798c707acc7a7ecbec501252be80fa7ec",
+        "size_in_bytes": 24457
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_selectioncontainer.py",
+        "path_type": "hardlink",
+        "sha256": "1c9bdbf0527a5e1cbca403384881842f946dc840b3d22ecc3f264b8e787895ff",
+        "sha256_in_prefix": "1c9bdbf0527a5e1cbca403384881842f946dc840b3d22ecc3f264b8e787895ff",
+        "size_in_bytes": 4198
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_string.py",
+        "path_type": "hardlink",
+        "sha256": "4af0320651b8765594e6b0663bff4d8afc529853d36d40b8c3f203d6ae4b3c36",
+        "sha256_in_prefix": "4af0320651b8765594e6b0663bff4d8afc529853d36d40b8c3f203d6ae4b3c36",
+        "size_in_bytes": 6869
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_style.py",
+        "path_type": "hardlink",
+        "sha256": "a02e88e4791f73bc2fde61b41f0ce2a4896b0ee8d0d5a83153917b7e6de84f3e",
+        "sha256_in_prefix": "a02e88e4791f73bc2fde61b41f0ce2a4896b0ee8d0d5a83153917b7e6de84f3e",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_tagsinput.py",
+        "path_type": "hardlink",
+        "sha256": "51b0e22e1f7f51ac84be551817aeaaad9af2afc797f449f95045baa9a62ed142",
+        "sha256_in_prefix": "51b0e22e1f7f51ac84be551817aeaaad9af2afc797f449f95045baa9a62ed142",
+        "size_in_bytes": 3498
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_templates.py",
+        "path_type": "hardlink",
+        "sha256": "8d19ed248f4a2833b1069f9e6e93077e24e22f15e4f5ef28a07064c9c40b83d5",
+        "sha256_in_prefix": "8d19ed248f4a2833b1069f9e6e93077e24e22f15e4f5ef28a07064c9c40b83d5",
+        "size_in_bytes": 15507
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_time.py",
+        "path_type": "hardlink",
+        "sha256": "22329f561da14370a1ba6da883697a3fc587734a78667a879e4ff8c90d43b2b9",
+        "sha256_in_prefix": "22329f561da14370a1ba6da883697a3fc587734a78667a879e4ff8c90d43b2b9",
+        "size_in_bytes": 2779
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ipywidgets/widgets/widget_upload.py",
+        "path_type": "hardlink",
+        "sha256": "d567c8d8e13156d08fd6375ece19f2595b843cfddc4195825a8e8ee03febaa48",
+        "sha256_in_prefix": "d567c8d8e13156d08fd6375ece19f2595b843cfddc4195825a8e8ee03febaa48",
+        "size_in_bytes": 4637
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ipywidgets==8.0.4=py310hca03da5_0",
+  "sha256": "4a92a4cba5d8e2a25f6064c53ea525ca3a79215d66d97959e621fb2187123b35",
+  "size": 206831,
+  "subdir": "osx-arm64",
+  "timestamp": 1679394909177,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/ipywidgets-8.0.4-py310hca03da5_0.conda",
+  "version": "8.0.4"
+}

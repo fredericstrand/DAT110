@@ -1,0 +1,132 @@
+{
+  "build": "py310ha6e5c4f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/Users/fredericstrand/miniconda3/pkgs/y-py-0.5.9-py310ha6e5c4f_0",
+  "files": [
+    "lib/python3.10/site-packages/y_py-0.5.9.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/y_py-0.5.9.dist-info/METADATA",
+    "lib/python3.10/site-packages/y_py-0.5.9.dist-info/RECORD",
+    "lib/python3.10/site-packages/y_py-0.5.9.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/y_py-0.5.9.dist-info/WHEEL",
+    "lib/python3.10/site-packages/y_py-0.5.9.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/y_py-0.5.9.dist-info/license_files/LICENSE",
+    "lib/python3.10/site-packages/y_py/__init__.py",
+    "lib/python3.10/site-packages/y_py/__init__.pyi",
+    "lib/python3.10/site-packages/y_py/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/y_py/py.typed",
+    "lib/python3.10/site-packages/y_py/y_py.cpython-310-darwin.so"
+  ],
+  "fn": "y-py-0.5.9-py310ha6e5c4f_0.conda",
+  "legacy_bz2_md5": "bc27d501d313dce14ee8215bfdac6d8b",
+  "legacy_bz2_size": 673381,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/fredericstrand/miniconda3/pkgs/y-py-0.5.9-py310ha6e5c4f_0",
+    "type": 1
+  },
+  "md5": "52982f647562300820118859a6484bb7",
+  "name": "y-py",
+  "package_tarball_full_path": "/Users/fredericstrand/miniconda3/pkgs/y-py-0.5.9-py310ha6e5c4f_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/y_py-0.5.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py-0.5.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c113cc589b3f3756213b5f4ac93ed0c6acd8f47c258340e88a9671ff12f6e8bf",
+        "sha256_in_prefix": "c113cc589b3f3756213b5f4ac93ed0c6acd8f47c258340e88a9671ff12f6e8bf",
+        "size_in_bytes": 5533
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py-0.5.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1ce3b839f680c0cc9948ed73dfe8646f06cbaa70c3226f19013ced53fc91cad1",
+        "sha256_in_prefix": "1ce3b839f680c0cc9948ed73dfe8646f06cbaa70c3226f19013ced53fc91cad1",
+        "size_in_bytes": 917
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py-0.5.9.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py-0.5.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cb9659b189778b32ea21f7a4fefb9859b2c3f46047923f883c8a10a259f53730",
+        "sha256_in_prefix": "cb9659b189778b32ea21f7a4fefb9859b2c3f46047923f883c8a10a259f53730",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py-0.5.9.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e850498574171da8ba0dbca9c6da3e91b8052d31a542068eeeeb072889d7b87f",
+        "sha256_in_prefix": "e850498574171da8ba0dbca9c6da3e91b8052d31a542068eeeeb072889d7b87f",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py-0.5.9.dist-info/license_files/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b6d81564e9c46473907bd3c09d4d5ab0f21cfbe6ac35d46daf1bdb0423182a5b",
+        "sha256_in_prefix": "b6d81564e9c46473907bd3c09d4d5ab0f21cfbe6ac35d46daf1bdb0423182a5b",
+        "size_in_bytes": 1153
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "871927e8c619f2a9eba5b011a10c4e57c885f873eac9024578cafd9f0f57e71c",
+        "sha256_in_prefix": "871927e8c619f2a9eba5b011a10c4e57c885f873eac9024578cafd9f0f57e71c",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "19d957fcbd5f00b99df9acebaf11526f44a73947880d0b6ae7bf6a1a921b8679",
+        "sha256_in_prefix": "19d957fcbd5f00b99df9acebaf11526f44a73947880d0b6ae7bf6a1a921b8679",
+        "size_in_bytes": 41726
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4d57ae7f63f1e4e14de548f4ce7b0a2022c51f1b8e1f73c1983c9bc135fb4c2",
+        "sha256_in_prefix": "e4d57ae7f63f1e4e14de548f4ce7b0a2022c51f1b8e1f73c1983c9bc135fb4c2",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/y_py/y_py.cpython-310-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "3a02ab717768ed327179191b71cdf0557beb68d7b7bf593f4b7dcc2c25ad3f8c",
+        "sha256_in_prefix": "3a02ab717768ed327179191b71cdf0557beb68d7b7bf593f4b7dcc2c25ad3f8c",
+        "size_in_bytes": 1895376
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "y-py==0.5.9=py310ha6e5c4f_0",
+  "sha256": "4fdab4088eefc93362f603935189b298db0d9e96ae4dc8ae77fab01e1eb9b311",
+  "size": 615480,
+  "subdir": "osx-arm64",
+  "timestamp": 1683555821376,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/y-py-0.5.9-py310ha6e5c4f_0.conda",
+  "version": "0.5.9"
+}

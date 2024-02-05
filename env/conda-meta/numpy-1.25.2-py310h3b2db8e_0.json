@@ -1,0 +1,38 @@
+{
+  "build": "py310h3b2db8e_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "blas * openblas",
+    "libcxx >=14.0.6",
+    "libopenblas >=0.3.21,<1.0a0",
+    "numpy-base 1.25.2 py310ha9811e2_0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/Users/fredericstrand/miniconda3/pkgs/numpy-1.25.2-py310h3b2db8e_0",
+  "files": [],
+  "fn": "numpy-1.25.2-py310h3b2db8e_0.conda",
+  "legacy_bz2_md5": "651deeb3bc7f0eedef4d9f32029cffbc",
+  "legacy_bz2_size": 12855,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/fredericstrand/miniconda3/pkgs/numpy-1.25.2-py310h3b2db8e_0",
+    "type": 1
+  },
+  "md5": "0d223ec5f13b8245abbf515d8b887995",
+  "name": "numpy",
+  "package_tarball_full_path": "/Users/fredericstrand/miniconda3/pkgs/numpy-1.25.2-py310h3b2db8e_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "numpy==1.25.2=py310h3b2db8e_0",
+  "sha256": "94d336295841b0d37ef5b452ace5e11ab4d896886f527583cc963c8ff770e843",
+  "size": 13312,
+  "subdir": "osx-arm64",
+  "timestamp": 1691093132875,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/numpy-1.25.2-py310h3b2db8e_0.conda",
+  "version": "1.25.2"
+}

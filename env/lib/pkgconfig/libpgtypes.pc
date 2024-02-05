@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.15
+Requires: 
+Requires.private: 
+Cflags: -I/Users/fredericstrand/Documents/DAT110/env/include
+Libs: -L/Users/fredericstrand/Documents/DAT110/env/lib -lpgtypes
+Libs.private: -L/Users/fredericstrand/Documents/DAT110/env/lib -lpgcommon -lpgport -lm

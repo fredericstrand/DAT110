@@ -1,0 +1,14 @@
+prefix=/Users/fredericstrand/Documents/DAT110/env
+exec_prefix=/Users/fredericstrand/Documents/DAT110/env
+libdir=/Users/fredericstrand/Documents/DAT110/env/lib
+includedir=/Users/fredericstrand/Documents/DAT110/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/fredericstrand/Documents/DAT110/env/lib -lfreetype
+Libs.private: -lz -L/Users/fredericstrand/Documents/DAT110/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
