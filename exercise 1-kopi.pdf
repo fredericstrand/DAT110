@@ -1,0 +1,307 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "231043c2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 1.4\n",
+    "import numpy as np\n",
+    "import pandas as pd\n",
+    "import matplotlib.pyplot as plt\n",
+    "import scipy"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4cd9c7f9",
+   "metadata": {},
+   "source": [
+    "## Task 2:\n",
+    "* Numerical continous: Enhver verdi. Her snakker vi ofte om målinger. For eksempel høyde, fordi høyde er et kontinuerlig spekter med verdier.\n",
+    "* Numerical discrete: Hele verdier. For eksempel antall barn. Dette er fordi du ikke kan ha et halvt barn.\n",
+    "* Categorical nominal: Forskjellige kategorier uten en rekkefølge. For eksempel postkoder. Her plasseres man i en kategori, men det er ingen \"rangering\" mellom dem.\n",
+    "* Categorical ordinal: Forskjellige kategorier med en rekkefølge. For eksempel plassering i en konkurranse. Her vil det også være en rangering.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0efcdeda",
+   "metadata": {},
+   "source": [
+    "## Task 3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "f58fd826",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>SN</th>\n",
+       "      <th>Host Galaxy</th>\n",
+       "      <th>Date</th>\n",
+       "      <th>R.A.</th>\n",
+       "      <th>Decl.</th>\n",
+       "      <th>Offset</th>\n",
+       "      <th>Mag.</th>\n",
+       "      <th>Disc. Ref.</th>\n",
+       "      <th>SN Position</th>\n",
+       "      <th>Posn. Ref.</th>\n",
+       "      <th>Type</th>\n",
+       "      <th>SN.1</th>\n",
+       "      <th>Discoverer(s)</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>2015bh</td>\n",
+       "      <td>NGC 2770</td>\n",
+       "      <td>2015 02 07</td>\n",
+       "      <td>09 09.6</td>\n",
+       "      <td>+33 07</td>\n",
+       "      <td>16E   4S</td>\n",
+       "      <td>19.1</td>\n",
+       "      <td>CBET 4229</td>\n",
+       "      <td>09 09 35.06 +33 07 22.1</td>\n",
+       "      <td>CBET 4229</td>\n",
+       "      <td>IIn</td>\n",
+       "      <td>2015bh</td>\n",
+       "      <td>Howerton, Drake et al. (Catalina Real-time Tra...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>2015bg</td>\n",
+       "      <td>Anon.</td>\n",
+       "      <td>2015 12 16</td>\n",
+       "      <td>02 47.6</td>\n",
+       "      <td>+34 55</td>\n",
+       "      <td>13E   4N</td>\n",
+       "      <td>17.8</td>\n",
+       "      <td>CBET 4226</td>\n",
+       "      <td>02 47 34.51 +34 54 33.6</td>\n",
+       "      <td>CBET 4226</td>\n",
+       "      <td>Ia</td>\n",
+       "      <td>2015bg</td>\n",
+       "      <td>Maticic (PIKA)</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>2015bf</td>\n",
+       "      <td>NGC 7653</td>\n",
+       "      <td>2015 12 12</td>\n",
+       "      <td>23 24.8</td>\n",
+       "      <td>+15 17</td>\n",
+       "      <td>4W  20N</td>\n",
+       "      <td>17.3</td>\n",
+       "      <td>CBET 4219</td>\n",
+       "      <td>23 24 49.03 +15 16 52.0</td>\n",
+       "      <td>CBET 4219</td>\n",
+       "      <td>IIn</td>\n",
+       "      <td>2015bf</td>\n",
+       "      <td>Itagaki</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>2015be</td>\n",
+       "      <td>NGC 1843</td>\n",
+       "      <td>2015 12 06</td>\n",
+       "      <td>05 14.1</td>\n",
+       "      <td>-10 38</td>\n",
+       "      <td>1E   6N</td>\n",
+       "      <td>18.0</td>\n",
+       "      <td>CBET 4218</td>\n",
+       "      <td>05 14 06.24 -10 37 30.0</td>\n",
+       "      <td>CBET 4218</td>\n",
+       "      <td>IIP</td>\n",
+       "      <td>2015be</td>\n",
+       "      <td>Stegman, Zheng, Filippenko (LOSS)</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>2015bd</td>\n",
+       "      <td>NGC 3662</td>\n",
+       "      <td>2015 12 07</td>\n",
+       "      <td>11 23.8</td>\n",
+       "      <td>-01 06</td>\n",
+       "      <td>8W   3S</td>\n",
+       "      <td>15.9</td>\n",
+       "      <td>CBET 4217</td>\n",
+       "      <td>11 23 45.88 -01 06 21.2</td>\n",
+       "      <td>CBET 4217</td>\n",
+       "      <td>Ia</td>\n",
+       "      <td>2015bd</td>\n",
+       "      <td>Itagaki</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "       SN Host Galaxy        Date     R.A.   Decl.    Offset  Mag. Disc. Ref.  \\\n",
+       "0  2015bh    NGC 2770  2015 02 07  09 09.6  +33 07  16E   4S  19.1  CBET 4229   \n",
+       "1  2015bg       Anon.  2015 12 16  02 47.6  +34 55  13E   4N  17.8  CBET 4226   \n",
+       "2  2015bf    NGC 7653  2015 12 12  23 24.8  +15 17   4W  20N  17.3  CBET 4219   \n",
+       "3  2015be    NGC 1843  2015 12 06  05 14.1  -10 38   1E   6N  18.0  CBET 4218   \n",
+       "4  2015bd    NGC 3662  2015 12 07  11 23.8  -01 06   8W   3S  15.9  CBET 4217   \n",
+       "\n",
+       "               SN Position Posn. Ref. Type    SN.1  \\\n",
+       "0  09 09 35.06 +33 07 22.1  CBET 4229  IIn  2015bh   \n",
+       "1  02 47 34.51 +34 54 33.6  CBET 4226   Ia  2015bg   \n",
+       "2  23 24 49.03 +15 16 52.0  CBET 4219  IIn  2015bf   \n",
+       "3  05 14 06.24 -10 37 30.0  CBET 4218  IIP  2015be   \n",
+       "4  11 23 45.88 -01 06 21.2  CBET 4217   Ia  2015bd   \n",
+       "\n",
+       "                                       Discoverer(s)  \n",
+       "0  Howerton, Drake et al. (Catalina Real-time Tra...  \n",
+       "1                                     Maticic (PIKA)  \n",
+       "2                                            Itagaki  \n",
+       "3                  Stegman, Zheng, Filippenko (LOSS)  \n",
+       "4                                            Itagaki  "
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\n",
+    "df = pd.read_csv(\"data/SN_list-1.csv\")\n",
+    "df.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "5a281abb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'pandas.core.frame.DataFrame'>\n",
+      "RangeIndex: 60 entries, 0 to 59\n",
+      "Data columns (total 13 columns):\n",
+      " #   Column         Non-Null Count  Dtype  \n",
+      "---  ------         --------------  -----  \n",
+      " 0   SN             60 non-null     object \n",
+      " 1   Host Galaxy    60 non-null     object \n",
+      " 2   Date           60 non-null     object \n",
+      " 3   R.A.           60 non-null     object \n",
+      " 4   Decl.          60 non-null     object \n",
+      " 5   Offset         57 non-null     object \n",
+      " 6   Mag.           60 non-null     float64\n",
+      " 7   Disc. Ref.     60 non-null     object \n",
+      " 8   SN Position    60 non-null     object \n",
+      " 9   Posn. Ref.     60 non-null     object \n",
+      " 10  Type           60 non-null     object \n",
+      " 11  SN.1           60 non-null     object \n",
+      " 12  Discoverer(s)  60 non-null     object \n",
+      "dtypes: float64(1), object(12)\n",
+      "memory usage: 6.2+ KB\n"
+     ]
+    }
+   ],
+   "source": [
+    "df.info()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "f1deb4cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "60"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(df)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "0c70b492",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "image/png": "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0InEpXx873vf07Fjx/TAAw/o0KFDGjx4sF588UXl5ubGY3XnzOfzaf78+c1O8ySai7lczCS5mcvFTJKbuVzMJJErGi5mktzM5WImyY1cnnD4XH4nBgAAIDa4tgsAADBF+QAAAKYoHwAAwBTlA4Cp/Px8zZo1K9ExIlzLg5a5vp1cz+ea87J8TJ06VRMnTmz2b1e4lKmt52rq1KnyeDzyeDzyer0aMGCAZs+erbq6OqdyWugMbyydZb9yQSIzufh8fJZL2y7R6z8bl/O5nE06T8sHYue6667ToUOH9K9//UsPPvigHn/8cc2ePTvRsUy098Wbn5+v3/3ud7EPBADniQuufOTn5+vuu+/WnDlzlJ6erszMTAUCgYTleemllzR69Gj16NFDPXv21Le+9S29//77CcvzeT6fT5mZmcrJyVFxcbFuvvlmrV27NtGxnPXxxx9r69atmjBhQkJzNDQ06OGHH9all14qn8+nvn37atGiRQnN9FmnT5/WXXfdFdnv77///nO7EuZ5lqc9r/+qqip5PB6tX79eQ4cOVdeuXTV8+HDt3r077nlb0q9fPy1cuFDFxcXq1q2bsrOztWzZsrisqz3byePxqLy8XEVFRUpJSVH//v31/PPPJyRfv379VFZWph//+Mfy+/3q27evnnjiibhkORvL7daSC658SNLKlSt18cUXa/v27Vq8eLEeeOCBZn8O3kpdXZ1KSkq0Y8cOvfLKK0pKStKNN96ohoaGhOQ5m5SUFIVCoUTHSIhzeeNr/ED40pe+JEnas2ePvvnNbyotLU1+v19jxowxKZdz587Vww8/rNLSUr399tuqqKho8dpKibJy5Up16dJF27dv12OPPaalS5fqySefvODydOT1f8899+jXv/61duzYoYyMDF1//fUJe23+6le/0pAhQ/TGG29o7ty5+tnPfhaX99T2bqfS0lJNnjxZf/vb3/SDH/xAN910k/bu3ZuQfEuWLNGwYcP05ptvavr06frJT36id955J+ZZzoXVdmtJ3K5q67IhQ4Zo/vz5kqS8vDwtX75cr7zyigoKCsyzTJ48ucn0U089pYyMDL399tsaPHiweZ62vP7666qoqNDXv/71REdJiJUrV+rWW2/V9u3btXPnTt1xxx3Kzc3V7bffHllm3bp1uuGGGyRJH330kcaOHav8/Hy9+uqrSktL05YtW3T69Om45jxx4oR+85vfaPny5ZoyZYok6ZJLLtHo0aPjut5o5OTkaOnSpfJ4PBo0aJB2796tpUuXNnkuL4Q8HXn9z58/P/KetXLlSvXp00dr1qzRd7/73bjlbc2oUaN03333SZIGDhyoLVu2aOnSpTF/T23vdvrOd76j2267TZK0cOFCVVZWatmyZXr88cfN833jG9/Q9OnTJUn33nuvli5dqqqqKn35y1+OaZZzYbXdWnJBHvkYMmRIk+msrCwdOXIkIVnef/99FRcXa8CAAUpLS1P//v0lSfv3709Ins/705/+pG7duqlr164aOXKkxo4da3poziWNbyyDBg3SzTffrJkzZ2rp0qWR+4PBoDZs2BApH7/97W/VvXt3rVq1SsOGDdPAgQP1ox/9SIMGDYprzr179yoYDDpdEkeMGCGPxxOZHjlypPbt26czZ85cUHnO9vovKipSt27d1K1bN1122WVNHjty5MjIv9PT0zVo0KC4/G++0XPPPRfJ0q1bN7322mstZmmcjkeWtrZTWVlZk3yffQ91IV+jz37+eDweZWZmxvXzx4Xt1pIL8siH1+ttMu3xeBJ2mmPChAnKycnRH/7wB2VnZ6uhoUGDBw/WqVOnEpLn88aPH6/y8nJ5vV5lZ2c3e+4uJC29sSxZskRnzpxRcnKyXn31VfXs2VOXX365JOmtt97SmDFjzJ+zlJQU0/Wh/c72+n/yySd18uRJSc3ft1ry2f0z1q6//noNHz48Mt14ajERWVpy5513Njnqk52d3eby1vkaWX/+uLrdLsjy4Ypjx45p7969+v3vf68xY8ZIkjZv3pzgVE1dfPHFuvTSSxMdo1P47CkXKXElIC8vTykpKXrllVcih5pds23btmbTeXl5Sk5OvmDynMvrv60Pim3btqlv376SpOPHj+uf//xnXA/d+/1++f3+VrN8fjoeWdraTunp6UpPT2/1cbfcckuT6SuuuMI0X6K4sN1aQvlIoC984Qvq2bOnnnjiCWVlZWn//v2R829wT1tvLOFwWH/84x/1zDPPRO4fMmSIVq5cqVAoZHr0o2vXrrr33ns1Z84cXXTRRRo1apT++9//as+ePbr11lvNcrTlwIEDKikp0bRp0/TGG29o2bJlWrJkyQWVp6Ov/wceeEA9e/ZU7969NW/ePPXq1Sthf9dhy5YtWrx4sSZOnKjKyko9//zzWr9+fczX097t9Pzzz2vYsGEaPXq0nnvuOb3++ut66qmnnMmXKFbbrSWUjwRKSkrSqlWrdPfdd2vw4MEaNGiQHnvsMeXn5yc6GlrQ1hvLrl27VFdXp7Fjx0aWv+uuu7Rs2TJ9//vf19y5c9W9e3dt27ZNV199ddy/91FaWqouXbro//7v/3Tw4EFlZWXpzjvvjOs6o3HLLbfo5MmTuvrqq5WcnKyZM2fqjjvuuKDydPT1/8tf/lI//elPtW/fPg0dOlTr1q3TRRddFNfMrfn5z3+uXbt2acGCBfL7/VqyZImuvfbamK+nvdtpwYIFWrVqlaZPn67MzEw999xz+upXv+pMvkSx2m4t8YQT+cv1gMOmTp2qTz75RGvXrlV+fr4uu+wyNTQ0qKKiQsnJyZo2bZrKysrk8XhUWlqq6upqPfvss03G+Pvf/6577rlHmzdvVnJysr72ta/p6aef1oABAxL0U6Gzq6qq0vjx43X8+HH16NEj0XHUr18/zZo1y9m/AOzxeLRmzRqn/9pnIiR6u3HkA2jF008/Hfl3VVVV5N/l5eXNln3hhRd0//33N5s/ZMgQbdiwIR7xAKDTuiB/1RaIpVOnTmny5MkqKipKdBQA6BQ47QIAAExx5AMAAJiifAAAAFOUDwAAYIryAQAATFE+AACAKcoHAAAwRfkAAACmKB8AAMAU5QMAAJj6fz7vMZE1YIcvAAAAAElFTkSuQmCC",
+      "text/plain": [
+       "<Figure size 640x480 with 1 Axes>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "df[\"Type\"].hist();"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3ed346ae",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
